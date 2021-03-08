@@ -7,15 +7,35 @@
 }
 
 #headBox{
-  width:100%; height:80px;
-  text-align:center;
+  width:100%; height:120px;
   background-color: #fff;
 }
 
 h1{
-  width:800px; height:40px;
-  margin:auto; margin-top:40px; 
+  float:left;
+  width:200px; height:40px;
+  margin-left:50px; margin-top:40px; 
 }
+
+#unb{
+  float:right;
+  width:500px; height:40px;
+  margin-top: 40px;
+}
+
+#unb > ul{
+  width:100%; height:100%;
+}
+
+#unb > ul > li{
+  width:50%; height:100%;
+  color:#333333;
+  text-align: center;
+  font-size: 14pt;
+}
+
+.login{float:left;}
+.sign_up{float:right;}
 
 /* ============================= */
 #stepBox{
